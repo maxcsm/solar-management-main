@@ -1,0 +1,50 @@
+<ion-header >
+  <ion-toolbar mode="ios">
+      <ion-title>
+      <img src="assets/imgs/navbar/logo.svg"  width="100px"  />
+      </ion-title>
+
+      <ion-buttons slot="start">
+        <ion-button ion-button icon-only (click)="goHome()" color="primary">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+
+
+  </ion-toolbar>
+</ion-header>
+<ion-content >
+  <div  class="bloc-search"  >     
+    <div class="btn-container"  >
+      <div class="search"  >
+        <ion-searchbar style="background-color: white;" placeholder="Recherche par mots-clés"  debounce="200"  [(ngModel)]="filter"
+         (ionChange)="onChangeWord($event)" >  
+        </ion-searchbar>
+      </div>
+    </div>
+    </div>
+
+
+    <ion-list inset lines="none" >
+      <h4 class="title-result"> RESULTATS </h4>
+    </ion-list>
+
+
+    <div class="cat-container" *ngIf="!posts">
+      <ion-list inset lines="none" >
+        <div  class="ion-text-center list-cat" >
+        <h4 > Aucun résultat  </h4>
+        </div>
+      </ion-list>
+      </div>
+
+
+    <div class="cat-container" *ngIf="posts"  >
+    <ion-list inset lines="none" >
+      <div  class="ion-text-center list-cat" *ngFor="let item of posts" (click)="go($event, item)">
+      <div class="left-color backcat{{item.cat_id}}" ></div>
+      <h4 > {{ item.name }}  </h4>
+      </div>
+    </ion-list>
+    </div>
+</ion-content>

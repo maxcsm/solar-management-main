@@ -1,0 +1,62 @@
+<ion-header >
+  <ion-toolbar mode="ios">
+      <ion-title>
+      <img src="assets/imgs/navbar/logo.svg"  width="100px"  />
+      </ion-title>
+
+      <ion-buttons slot="start">
+        <ion-button ion-button icon-only (click)="goHome()" color="medium">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+
+      <ion-buttons slot="end">
+        <ion-button ion-button icon-only  color="primary" (click)="goHome()">
+          <ion-icon name="apps"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+
+  <ion-grid >
+
+    <ion-row style="padding-top: 70px;" *ngIf="!newimage" >
+    <ion-col size="6" *ngFor="let photo of photoService.photos; index as position">
+      <ion-img [src]="photo.webviewPath" (click)="showActionSheet(photo, position)"></ion-img>
+    </ion-col>
+    </ion-row>
+    <ion-row style="padding-top: 70px;" *ngIf="newimage" >
+
+      <ion-button ion-button  color="primary" (click)="closeImage()"  fill="outline">
+        Fermer x
+       </ion-button>
+      <ion-col size="12" >
+        <ion-img [src]="newimage"></ion-img>
+      </ion-col>
+   
+    </ion-row>
+  </ion-grid>
+
+  <ion-fab vertical="top" horizontal="center" slot="fixed" *ngIf="!newimage">
+    <ion-fab-button (click)="photoService.addNewToCamera()">
+      <ion-icon name="camera-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+
+  <ion-fab  vertical="top" horizontal="start" slot="fixed" *ngIf="!newimage">
+    <ion-button color="light" (click)="photoService.addNewToGallery()" style="padding-top:5px ;" >
+      <ion-icon name="cloud-upload-outline"></ion-icon>
+    </ion-button>
+  </ion-fab>
+
+
+ 
+
+  
+
+</ion-content>

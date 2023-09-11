@@ -1,0 +1,64 @@
+<ion-header >
+  <ion-toolbar mode="ios">
+      <ion-title>
+      <img src="assets/imgs/navbar/logo.svg"  width="100px"  />
+      </ion-title>
+
+
+  </ion-toolbar>
+</ion-header>
+
+
+  <ion-content>
+    <h1>Connexion </h1>
+      <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="12" style="border: 2px;border-width: 2px;">
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="12" style="border: 2px;border-width: 2px;"  style="text-align: center;" >
+       <!-- Login form -->
+       <form [formGroup]="onLoginForm" (ngSubmit)="submitForm()" novalidate class="list-form">
+        <ion-item >
+          <ion-label position="floating">
+            <ion-icon name="mail-outline"></ion-icon>   Email  </ion-label>
+          <ion-input  type="email" aria-label="Email" [(ngModel)]="email" formControlName="email"></ion-input>
+        </ion-item>
+        <span class="error ion-padding" *ngIf="isSubmitted ">
+          E-mail requis.
+        </span>
+        <span class="error ion-padding" *ngIf="isSubmitted ">
+         E-mail trop court.
+        </span>
+        <ion-item >
+          <ion-label position="floating">
+          <ion-icon name="lock-closed-outline"></ion-icon>   Mot de passe </ion-label>
+          <ion-input  type="password"  aria-label="Mot de passe" [(ngModel)]="password" formControlName="password"></ion-input>
+        </ion-item>
+      </form>
+  
+
+      <ion-row >
+      <ion-col>
+        <div class="ion-margin-top ion-text-center" >
+          <div [routerLink]="['/forgotpassword']" class="forgot_password">
+              <strong>  Mot de passe oublié ? </strong>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="12" style="border: 2px;border-width: 2px;">
+     </ion-col>
+    </ion-row>
+  
+   
+  
+    <div class="bloc_button" >
+      <div class="button_login" (click)="login()" type="submit" >
+        <div class="circle grow ">
+        </div>
+        <span>Entrer</span>
+        </div>
+      </div>
+  </ion-content>
+

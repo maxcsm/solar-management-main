@@ -1,0 +1,136 @@
+
+.cat-color {
+    background-image: linear-gradient(
+        127deg,
+        rgb(148, 241, 255) 0%,
+        rgb(61, 212, 185) 100%
+    );
+    border-radius: 50%;
+    width: 1.15;
+    height: 1.15;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+.cat-color-mask {
+    display: flex;
+    height: 50%;
+    width: 80%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #41d5cf; 
+    box-shadow: #9a9a9a;
+
+    img {
+        margin: auto;
+        z-index: 2;
+        position: absolute;
+        top: 150px;
+        transform: translate3d(-50%, -50%, 0);
+        max-width: 70%;
+        max-height: 70%;
+        background-color: #39d1b6;
+       
+    }
+}
+
+
+.cat-padding {
+padding-top: 50px;
+}
+
+.cat-container {
+position: relative;
+ h1 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.922rem;
+    letter-spacing: 0.224rem;
+  
+}
+  p {
+    text-align: center;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    color: #4a4a4a;
+	font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.title-cat {
+    background-color: rgb(230, 230, 230);
+    text-transform: uppercase;
+    border-top: 1px solid rgba(#39d1b6, 0.5) !important;
+    height: 50px;
+}
+
+.list-cat {
+    background-color: rgb(230, 230, 230);
+    text-transform: uppercase;
+    border-top: 1px solid rgba(#39d1b6, 0.5) !important;
+    max-height: 150px;
+    min-height: 50px;
+
+    h4 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.822rem;
+        letter-spacing: 0.024rem;
+      
+    }
+    
+}
+}
+.bloc_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+.button_cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;   
+    position: relative;
+    text-align: center;
+    background-color: #41d5cf;
+    background-image : radial-gradient(ellipse, #acf7f7, #41d5cf); 
+
+  
+    .circle_cat {
+      position: absolute;
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      box-shadow: #9a9a9a;
+    }
+    span {
+        line-height: 45px;
+        text-transform: uppercase;
+        font-family: Cervo;
+        font-size: 0.5rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 0.348rem;
+        color: #41d5cf;
+        z-index:7;
+    }
+}
+}
+
+
+

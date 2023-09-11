@@ -1,0 +1,112 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+@import "swiper/scss";
+@import "swiper/scss/navigation";
+@import "swiper/scss/pagination";
+
+
+* {font-family: 'Cervo'; }
+
+.cat1 { color:#00659c;} 
+.cat2 { color:#002cff;} 
+.cat3 { color:#6f00ff;} 
+.cat4 { color:#009bff;} 
+
+.backcat1 { background-color:#00659c;} 
+.backcat2 { background-color:#002cff;} 
+.backcat3 { background-color:#6f00ff;} 
+.backcat4 { background-color:#009bff;} 
+
+
+
+.bloc_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+.button_zoom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;   
+    position: relative;
+    text-align: center;
+    background-color: #41d5cf;
+    background-image : radial-gradient(ellipse, #acf7f7, #41d5cf); 
+
+  
+  .circle {
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:1.5px solid #41d5cf; 
+    box-shadow: #9a9a9a;
+    }
+
+
+    span {
+        line-height: 45px;
+        text-transform: uppercase;
+        font-family: Cervo;
+        font-size: 0.5rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 0.348rem;
+        color: #41d5cf;
+        z-index:7;
+    }
+}
+}
+  .grow {
+    animation: grow 1.5s ease infinite;
+    text-align: center;
+  }
+  @keyframes grow {
+    from { transform: scale(0);opacity: 0; }
+    90% { transform: scale(1);opacity: 0.8;}
+    to { opacity: 0; }
+  }
+
+ 
+
+
+
+  @keyframes hide-icon {
+    0% {
+      transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 1);
+    }
+  }

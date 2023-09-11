@@ -1,0 +1,44 @@
+<ion-header >
+  <ion-toolbar mode="ios">
+    <ion-title>
+      <img src="assets/imgs/navbar/logo.svg"  width="100px"  />
+      </ion-title>
+      <ion-buttons slot="start">
+        <ion-button ion-button icon-only (click)="goHome()" color="primary">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="end">
+        <ion-button ion-button icon-only  color="primary" (click)="goMenu()">
+          <ion-icon name="apps"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding >
+  <div class="bloc_button cat-padding" >
+    <div class="button_cat" >
+    <div class="circle_cat backcat{{idcat}}">
+      <img  src="{{imagecat}}" width="90" height="90" />
+    </div>
+    </div>
+  </div>
+
+	<div class="cat-container" >
+    <div *ngFor="let fiche of alldata">
+    <h1 class="cat{{fiche.id}}"> {{fiche.name}} </h1>
+    <p> {{fiche.description}}</p>
+  </div>
+
+	<ion-list inset lines="none" >
+		<div  class="ion-text-center title-cat">
+    <h1 class="cat{{idcat}}"> les idées clés  </h1>
+    </div>
+    <div  class="ion-text-center list-cat" *ngFor="let item of allfiches" (click)="go($event, item)">
+    <h4 > {{ item.name }}  </h4>
+    </div>
+		</ion-list>
+	</div>
+</ion-content>

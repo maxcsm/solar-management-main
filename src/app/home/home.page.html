@@ -1,0 +1,102 @@
+<ion-header>
+  <ion-toolbar mode="ios">
+  <ion-title>
+  <img src="assets/imgs/navbar/logo.svg" class="logo" width="100px"  />
+  </ion-title>
+
+  <ion-buttons slot="end" (click)="goMenu()">
+    <ion-button ion-button icon-only  color="primary" class="hide-icon" >
+      <ion-icon name="apps" ></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  
+  </ion-toolbar>
+  </ion-header>
+
+
+
+  <ion-content >
+
+      <div #btn *ngIf="!hiddensearch">
+      <h1>manager votre equipe <br />
+        <span>sereinement</span></h1>
+        <div class="bloc_button" >
+        <div class="button_zoom"  (click)="applyBounce()">
+          <div class="circle grow ">
+          </div>
+          <ion-icon name="search-outline" color="light" style="zoom:2.0;" ></ion-icon>
+          </div>
+        </div>
+      </div>
+
+    
+      <div  class="bloc-search anim" *ngIf="hiddensearch" >     
+        <div class="btn-container"  >
+          <h1>«MANAGER MOTIVANT»</h1>
+          <h2>GRÂCE À DES FICHES<br/>ADAPTÉES À CHAQUE SITUATION</h2>
+          <div class="search" [routerLink]="['/searchresult']" >
+            <input type="text" placeholder="Recherche par mots-clés" search/>
+            <ion-icon name="search" color="light"></ion-icon>
+          </div>
+        </div>
+          <div class="categories" >
+            <div class="categorie" [routerLink]="['/categorie/1']">
+              <img src="assets/imgs/global/1.svg"/>
+              <span class="subtext">mobiliser</span>
+              <div class="subcolor"></div>
+            </div>
+            <div class="categorie" [routerLink]="['/categorie/2']" >
+              <img src="assets/imgs/global/3.svg"/>
+              <span class="subtext">motiver</span>
+              <div class="subcolor"></div>
+            </div>
+            <div class="categorie"[routerLink]="['/categorie/3']" >
+              <img src="assets/imgs/global/2.svg"/>
+              <span class="subtext">coacher</span>
+              <div class="subcolor"></div>
+            </div>
+            <div class="categorie"[routerLink]="['/categorie/4']" >
+              <img src="assets/imgs/global/4.svg"/>
+              <span class="subtext">Gérer</span>
+              <div class="subcolor"></div>
+            </div>
+          </div>
+        </div>
+     
+
+
+            <div id="homepage-slider" class="st-slider" style="bottom: 0px;position:absolute">
+                <input type="radio" class="cs_anchor radio" name="slider" id="slide1"/>
+                <input type="radio" class="cs_anchor radio" name="slider" id="slide2"/>
+                <input type="radio" class="cs_anchor radio" name="slider" id="slide3"/>
+                <input type="radio" class="cs_anchor radio" name="slider" id="play1" checked=""/>
+            
+                <div class="images">
+                   <div class="images-inner">
+                    <div class="image-slide">
+                      <img src="assets/imgs/home/1.jpg" />
+                    </div>
+                    <div class="image-slide">
+                      <img src="assets/imgs/home/2.jpg" />
+                    </div>
+                    <div class="image-slide">
+                      <img src="assets/imgs/home/1.jpg" />
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="labels">
+                    <label for="slide1" class="label">text slide 1</label>
+                    <label for="slide2" class="label">text slide 2</label>
+                </div>
+            </div>
+
+    </ion-content>
+  
+  
+    <ion-footer *ngFor="let item of fiche">
+    <ion-toolbar (click)="go($event, item)">
+      <div class="left-color backcat{{item.cat_id}}" ></div>
+      <span class="text" [textContent]="item.name"></span>
+    </ion-toolbar>
+    </ion-footer>

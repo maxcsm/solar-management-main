@@ -1,0 +1,33 @@
+<ion-header >
+  <ion-toolbar mode="ios">
+      <ion-title>
+      <img src="assets/imgs/navbar/logo.svg"  width="100px"  />
+      </ion-title>
+
+      <ion-buttons slot="start">
+        <ion-button ion-button icon-only (click)="goHome()" color="primary">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+
+      <ion-buttons slot="end">
+        <ion-button ion-button icon-only  color="primary" (click)="goHome()">
+          <ion-icon name="apps"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+  <ion-content>
+
+    <h1>Compte</h1>
+    <div class="bloc_button" (click)="logout()" >
+      <div class="button_logout"  >
+        <div class="circle grow ">
+        </div>
+        <span>Déconnexion</span>
+        </div>
+      </div>
+  </ion-content>
+

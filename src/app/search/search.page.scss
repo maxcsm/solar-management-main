@@ -1,0 +1,110 @@
+ion-content {
+ 
+    h1 {
+      font-family: 'Cervo';
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 1.222rem;
+      letter-spacing: 0.224rem;
+  
+      span {
+        color: #3dd4cd;
+        font-size: 2.333rem;
+        letter-spacing: 0.156rem;
+      }
+    }
+  
+    button {
+      transform: scale(1);
+      padding: .5rem 2rem;
+      background-color: crimson;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-weight: bold;
+      font-size: 1.5rem;
+      outline: none;
+      cursor: pointer;
+    }
+    
+  
+
+  
+    .bloc-search{
+      background-color: #3dd4cd;
+      height: 350px;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      position: relative;
+      margin-bottom: 50px;
+      box-shadow: 5px 0px 0px 40px #ccfaf7;
+  
+    
+      .btn-container {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        right: 0;
+        h1, h2 {
+          text-transform: uppercase;
+        }
+        h1 {
+          color: white;
+          margin-top: 1.1rem;
+          font-size: 1.2rem;
+          letter-spacing: 0.313rem;
+        }
+        h2 {
+          text-align: center;
+          color: #39393a;
+          font-weight: 500;
+          letter-spacing: 0.225rem;
+          font-size: 1.25rem;
+          margin-bottom: 1rem;
+        }
+        .search {
+          display: block;
+          text-align: center;
+          width: 250px;
+          max-width: 80%;
+          margin: 0 auto;
+          margin-bottom: 4rem;
+          position: relative;
+          height : 3rem;
+          input {
+            width: 100%;
+            height: 50px;
+            border: none;
+            border-radius: 30px;
+            text-align: center;
+            padding: 0 15%;
+            font-size: 1.2rem;
+            &::placeholder {
+              color: #cecece;
+              font-weight: 300;
+            }
+          }
+          ion-icon {
+            transform: translate(-50%, -50%);
+            position: absolute;
+            top: 25px;
+            left: 22px;
+            background-image: linear-gradient(127deg, #94eefb 0%, #3dd4cd 100%);
+            background-clip: content-box;
+            height: 40px;
+            width: 40px;
+            line-height: 10px;
+            border-radius: 50%;
+          }
+        }
+      }
+  
+     
+    }
+}
+  
+  
+  

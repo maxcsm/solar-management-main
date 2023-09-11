@@ -1,0 +1,92 @@
+<ion-header >
+  <ion-toolbar mode="ios">
+      <ion-title>
+      <img src="assets/imgs/navbar/logo.svg"  width="100px"  />
+      </ion-title>
+
+      <ion-buttons slot="start">
+        <ion-button ion-button icon-only (click)="goHome()" color="primary">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+
+      <ion-buttons slot="end">
+        <ion-button ion-button icon-only  color="primary" (click)="goHome()">
+          <ion-icon name="apps"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <div class="mask" [style.top]="top + 'px'"></div>
+  <div class="circle" [style.top]="top + 'px'"></div>
+  <div class="content" [style.top]="top + 'px'">
+
+    <div class="links">
+      <div class="link" [routerLink]="['/home']" >
+        <span>accueil</span>
+      </div>
+      <div class="link" [routerLink]="['/phototheque']">
+        <span go-to="phototheque">la phototheque</span>
+      </div>
+      <div class="link" [routerLink]="['/account']" >
+        <span go-to="account">compte</span>
+      </div>
+    </div>
+
+    <div class="search" [routerLink]="['/searchresult']">
+      <input type="text" placeholder="Recherche par mots-clés" search (keypress)="search($event)" style="height: 50px;border-radius: 10px;"/>
+      <ion-icon name="search" style="left: 20px;
+      width: 30px;
+      height: 30px;" ></ion-icon>
+    </div>
+
+    <div class="categories">
+      <div class="line">
+        <div
+          class="category"
+          go-to="categorie">
+          <div [routerLink]="['/categorie/1']">
+            <img [src]="categories[0].image" />
+            <span class="subtext" [textContent]="categories[0].shortname"></span>
+            <div class="subcolor"></div>
+          </div>
+        </div>
+        <div
+          class="category"
+          go-to="categorie"
+          >
+          <div [routerLink]="['/categorie/2']">
+            <img [src]="categories[1].image" />
+            <span class="subtext" [textContent]="categories[1].shortname"></span>
+            <div class="subcolor"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="line">
+        <div class="category" go-to="categorie">
+        <div [routerLink]="['/categorie/3']">
+            <img [src]="categories[2].image" />
+            <span class="subtext" [textContent]="categories[2].shortname"></span>
+            <div class="subcolor"></div>
+          </div>
+        </div>
+        <div
+          class="category"
+          go-to="categorie"
+        >
+          <div [routerLink]="['/categorie/4']">
+            <img [src]="categories[3].image" />
+            <span class="subtext" [textContent]="categories[3].shortname"></span>
+            <div class="subcolor"></div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  
+</ion-content>
