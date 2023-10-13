@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'solar.test.test',
+  appId: 'fr.adelios.solarmanagement2',
   appName: 'SolarManagement',
   webDir: 'www',
   server: {

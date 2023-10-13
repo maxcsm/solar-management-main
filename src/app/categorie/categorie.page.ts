@@ -65,6 +65,12 @@ export class CategoriePage implements OnInit {
 		this.router.navigateByUrl('fiche/'+item.id );
 	}
 
+  async goidee() {
+    console.log("-------ID CATEGO----"); 
+    console.log(this.id); 
+		this.router.navigateByUrl('ideecle/'+this.id );
+	}
+
   async goHome() {
     this.router.navigateByUrl('/home');
 	}

@@ -55,6 +55,10 @@ const routes: Routes = [
     path: 'forgotpassword',
     loadChildren: () => import('./forgotpassword/forgotpassword.module').then( m => m.ForgotpasswordPageModule)
   },
+  {
+    path: 'ideecle/:id',
+    loadChildren: () => import('./ideecle/ideecle.module').then( m => m.IdeeclePageModule)
+  },
 ];
 
 @NgModule({

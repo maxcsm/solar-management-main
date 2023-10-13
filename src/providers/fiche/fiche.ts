@@ -48,7 +48,7 @@ export class FicheProvider {
 				},
 			],
 			to_remember:
-				'«&nbsp;*On convainc par l’envie liée au sens : le pourquoi avant d’expliquer la stratégie :  le comment*&nbsp;»',
+				'«&nbsp;On convainc par l’envie liée au sens : le pourquoi avant d’expliquer la stratégie :  le comment&nbsp;»',
 			tags:
 				'stratégie, strategie, strat, strategies, Stratégie, Strategies, objectif, objectifs, Objectif, Objectifs, échec, Echec, Échec, echecs, échecs, succès, succes, succe, succè, progres, Progres, progrés, Progrés, sens, Sens, FFMO, ffmo, enjeux,Enjeux, enjeu, Enjeu, objectifs, Objectifs, moyen, Moyen, moyens, Moyens, priorités, Priorités, priorité, Priorité',
 		},
@@ -67,7 +67,7 @@ export class FicheProvider {
           1. De quoi parle-t-on ? (idéalement commencer par une anecdote) <br>
           2. Donner du sens : en quoi cette information est importante ? Relier l’information avec le quotidien des collaborateurs <br>
           3. Relier l’information avec le quotidien des collaborateurs <br>
-          4. «&nbsp;*Déminer*&nbsp;» les résistances prévisibles : «&nbsp;*Je sais que…*&nbsp;» <br>
+          4. «&nbsp;Déminer&nbsp;» les résistances prévisibles : «&nbsp;Je sais que…&nbsp;» <br>
           `,
 				},
 				{
@@ -75,14 +75,14 @@ export class FicheProvider {
 				},
 				{
 					title:
-						'Inciter à poser des questions  : «&nbsp;*Vos questions m’intéressent*&nbsp;»',
+						'Inciter à poser des questions  : «&nbsp;Vos questions m’intéressent&nbsp;»',
 				},
 				{
 					title: 'Conclure par les 3 points à retenir',
 				},
 			],
 			to_remember:
-				'«&nbsp;*C’est la traduction des conséquences de l’information par des exemples concrets dans le vécu des collaborateurs qui est source d’impact*&nbsp;»',
+				'«&nbsp;C’est la traduction des conséquences de l’information par des exemples concrets dans le vécu des collaborateurs qui est source d’impact&nbsp;»',
 			tags:
 				'présenter, Présenter, presenter, Presenter, information, Information, info, donner, Donner, appartenance, Appartenance, attachement, Attachement, implication, Implication, introduire, Introduire, intro, Intro, introduction, Introduction, illustrer, Illustrer, expliquer, Expliquer, sens, Sens',
 		},
@@ -103,7 +103,7 @@ export class FicheProvider {
       7. Encourager par un message positif en rappelant la principale condition de succès<br>
       `,
 			to_remember:
-				'«&nbsp;*la cohérence et donc la motivation viennent de l’alignement entre le pourquoi et le comment*&nbsp;»',
+				'«&nbsp;la cohérence et donc la motivation viennent de l’alignement entre le pourquoi et le comment&nbsp;»',
 			tags:
 				'lancer, Lancer, projet, Projet, séquence, Séquence, sequence, Sequence, lancement, Lancement, mobiliser, Mobiliser, énergie, Energie, energie, expliquer, Expliquer, annoncer, Annoncer, concentrer, Concentrer, rappeler, Rappeler, encourager, Encourager',
 		},
@@ -153,7 +153,7 @@ export class FicheProvider {
 				},
 			],
 			to_remember:
-				'«&nbsp;*La réussite du changement dépend de la mise en œuvre de conditions  de management*&nbsp;»',
+				'«&nbsp;La réussite du changement dépend de la mise en œuvre de conditions  de management&nbsp;»',
 			tags:
 				'accompagner, Accompagner, changement, Changement, guider, Guider, planning, Planning, date, Date, annonce, Annonce, période, Période, periode, Periode, définir, Définir, definir, Definir, lancement, Lancement, bilan, Bilan, positif, Positif, annoncer, Annoncer, gérer, Gérer, gerer, Gerer, animer, Animer, fêter, Fêter',
 		},
@@ -167,7 +167,7 @@ export class FicheProvider {
 			contents: [
 				{
 					title:
-						'Ecrire la question précise sur un support et rappeler la règle du jeu : «&nbsp;*toutes les idées sont bienvenues, le tri se fait à la fin*&nbsp;»',
+						'Ecrire la question précise sur un support et rappeler la règle du jeu : «&nbsp;toutes les idées sont bienvenues, le tri se fait à la fin&nbsp;»',
 				},
 				{
 					title: 'Animer les interventions :',
@@ -187,7 +187,7 @@ export class FicheProvider {
 				},
 			],
 			to_remember:
-				'«&nbsp;*L’efficacité du management participatif dépend de la qualité de la question posée*&nbsp;»',
+				'«&nbsp;L’efficacité du management participatif dépend de la qualité de la question posée&nbsp;»',
 			tags:
 				'Animer, animer, brainstorming, Brainstorming, brainstorm, Brainstorm, impliquer, Impliquer, présenter, Présenter, presenter, Présenter, animer, Animer, règle, Règle, regle, Regle, tri, Tri, trier, Trier, idée, Idée, idee, Idee, proposition, Proposition, reformuler, Reformuler, synthèse, Synthèse, synthese, Synthese, reformuler, Refurmuler',
 		},
@@ -202,7 +202,7 @@ export class FicheProvider {
 			contents: [
 				{
 					title:
-						'Utiliser des questions ouvertes  : «&nbsp;*Comment.. ?*&nbsp;» , «&nbsp;*Raconte moi.. ?*&nbsp;»',
+						'Utiliser des questions ouvertes  : «&nbsp;Comment.. ?&nbsp;» , «&nbsp;Raconte moi.. ?&nbsp;»',
 				},
 				{
 					title: 'Attitude ouverte et bienveillante : ne pas couper la parole',
@@ -220,13 +220,13 @@ export class FicheProvider {
           1. Relancer par le silence (3 à 5 secondes)<br>
           2. Relance écho : répéter un mot que l’on veut creuser, une dissonance («&nbsp;Plutôt, globalement, presque…&nbsp;»)<br>
           3. Relance écho + C’est-à-dire ?<br>
-          4. Reformuler : «&nbsp;*Si je comprends bien…*&nbsp;»<br>
+          4. Reformuler : «&nbsp;Si je comprends bien…&nbsp;»<br>
           `,
 					img: 'fiche_2_5_1.svg',
 				},
 			],
 			to_remember:
-				'«&nbsp;*Ecouter c’est s’oublier pour aller visiter le monde de l’autre*&nbsp;»',
+				'«&nbsp;Ecouter c’est s’oublier pour aller visiter le monde de l’autre&nbsp;»',
 			tags:
 				'développer, Développer, developper, Developper, écoute, ecoute, Ecoute, ecouter, Ecouter, écouter, energie, énergie, Energie, confiance, Confiance, attitude, Attitude, attention, Attention, regard, Regard, regards, Regards, relance, Relance, relancer, Relancer, reformuler, Reformuler',
 		},
@@ -239,14 +239,14 @@ export class FicheProvider {
 				'Pour donner de l’énergie par la reconnaissance des difficultés surmontées',
 			why_img: 'fiche_2_6_1.svg',
 			how: `
-      1. Faire le constat factuel du résultat : «&nbsp;*J’ai vu que...*&nbsp;»<br>
-      2. Donner la parole au collaborateur : «&nbsp;*Comment ça s’est passé ?*&nbsp;»<br>
-      3. Pratiquer *l’écoute active* pour détecter les difficultés rencontrées, les progrès réalisés.<br>
+      1. Faire le constat factuel du résultat : «&nbsp;J’ai vu que...&nbsp;»<br>
+      2. Donner la parole au collaborateur : «&nbsp;Comment ça s’est passé ?&nbsp;»<br>
+      3. Pratiquer l’écoute active pour détecter les difficultés rencontrées, les progrès réalisés.<br>
       4. Reformuler les difficultés surmontées<br>
       5. Faire un bref compliment portant sur la qualité du collaborateur que l’on veut valoriser<br>
       `,
 			to_remember:
-				'« *C’est l’écoute du succès qui donne l’énergie et permet un compliment juste et proportionné*&nbsp;»',
+				'« C’est l’écoute du succès qui donne l’énergie et permet un compliment juste et proportionné&nbsp;»',
 			tags:
 				'valoriser, Valoriser, féliciter, Féliciter, feliciter, Féliciter, collaborateur, Collaborateur, énergie, energie, Energie, reconnaissance, Reconnaissance, constat, Constat, parole, Parole, reformuler, Reformuler, compliment, Compliment, progrès, Progrès, progres, Progres',
 		},
@@ -259,14 +259,14 @@ export class FicheProvider {
 			why_img: 'fiche_2_7_1.svg',
 			how: `
       1. Introduire l’entretien en évoquant les changements de comportements constatés<br>
-      2. Donner la parole au collaborateur pour comprendre : «&nbsp;*J’aimerais t’écouter par rapport à ça ?*&nbsp;»<br>
+      2. Donner la parole au collaborateur pour comprendre : «&nbsp;J’aimerais t’écouter par rapport à ça ?&nbsp;»<br>
       3. Pratiquer l’écoute active pour identifier les raisons de la démotivation.<br>
-      4. Exprimer sa compréhension : «&nbsp;*C’est normal de …*&nbsp;»<br>
-      5. Rechercher une solution : «&nbsp;*Qu’est-ce que tu proposes ?*&nbsp;»<br>
+      4. Exprimer sa compréhension : «&nbsp;C’est normal de …&nbsp;»<br>
+      5. Rechercher une solution : «&nbsp;Qu’est-ce que tu proposes ?&nbsp;»<br>
       6. Décider d’une solution et veiller à sa mise en oeuvre<br>
       `,
 			to_remember:
-				'«&nbsp;*La prise de confiance via l’écoute active doit déclencher la prise de conscience  étape indispensable pour rechercher une solution*&nbsp;»',
+				'«&nbsp;La prise de confiance via l’écoute active doit déclencher la prise de conscience  étape indispensable pour rechercher une solution&nbsp;»',
 			tags:
 				'gérer, Gérer, gerer, Gérer, démotivation, Démotivation, demotivation, Demotivation, solution, Solution, solutions, Solutions, rappeler, Rappeler, enjeux, Enjeux, enjeu, Enjeu, raconter, Raconter',
 		},
@@ -286,7 +286,7 @@ export class FicheProvider {
       6. Organiser un moment festif<br>
       `,
 			to_remember:
-				'«&nbsp;*Le bilan d’une victoire est l’occasion de tirer des enseignements pour reproduire le succès*&nbsp;»',
+				'«&nbsp;Le bilan d’une victoire est l’occasion de tirer des enseignements pour reproduire le succès&nbsp;»',
 			tags:
 				'bilan, Bilan, succes, Succes, succès, Succès, collectif, Collectif, collective, Collective, objectif, Objectif, objectifs, Objectifs, positifs, Positifs, positif, Positif, analyse, Analyse, cause, Cause, causes, Causes, action, Action, actions, Actions, condition, Condition, conditions, Conditions, service, Service, services, Services, résultat, Résultat, resultat, Resultat, feliciter, Feliciter, féliciter, Féliciter, organiser, Organiser',
 		},
@@ -307,7 +307,7 @@ export class FicheProvider {
       7. Conclure sur la condition de succès sur laquelle se concentrer<br>
       `,
 			to_remember:
-				'«&nbsp;*Dans l’échec c’est la prise de conscience des points positifs qui permet d’accepter l’analyse et de rebondir*&nbsp;»',
+				'«&nbsp;Dans l’échec c’est la prise de conscience des points positifs qui permet d’accepter l’analyse et de rebondir&nbsp;»',
 			tags:
 				'remotiver, Remotiver, échec, Echec, echec, collectif, Collectif, resultat, Resultat, résultat, Résultat, mauvais, Mauvais, négatif, Négatif, negatif, Negatif, annoncer, Annoncer, mentionner, Mentionner, collectif, Collectif, analyse, Analyse, corrective, Corrective, correctives, Correctives, condition, Condition, conditions, Conditions, présenter, Présenter, presenter, Presenter',
 		},
@@ -323,7 +323,7 @@ export class FicheProvider {
 				{
 					title: 'Bilan global de l’année :',
 					content:
-						'«&nbsp;*Avant de regarder l’année en détail, comment l’as-tu vécue : tes principales satisfactions et difficultés ?*&nbsp;»',
+						'«&nbsp;Avant de regarder l’année en détail, comment l’as-tu vécue : tes principales satisfactions et difficultés ?&nbsp;»',
 				},
 				{
 					title: 'Evaluation de la performance',
@@ -347,7 +347,7 @@ export class FicheProvider {
 				},
 			],
 			to_remember:
-				'«&nbsp;*L’entretien annuel est un instantané sur un parcours professionnel : il permet de se situer et de se (re)mettre en projet*&nbsp;»',
+				'«&nbsp;L’entretien annuel est un instantané sur un parcours professionnel : il permet de se situer et de se (re)mettre en projet&nbsp;»',
 			tags:
 				'conduire, Conduire, entretien, Entretien, annuel, Annuel, recul, Recul, bilan, Bilan, evaluation, Evaluation, évaluation, évaluer, Evaluer, evaluer, objectif, Objectif, objectifs, Objectifs, évolution, Evolution, année, Année, annee, Annee, performance, Performance',
 		},
@@ -361,15 +361,15 @@ export class FicheProvider {
 			how: `
       1. Présenter la mission et son enjeu<br>
       2. Précision de l’objectif avec indicateur et délai<br>
-      3. Ecoute du collaborateur : «&nbsp;*Comment vois-tu ça ?*&nbsp;»<br>
-      4. Reformulation et validation des doutes : : «&nbsp;*C’est normal de …*&nbsp;»<br>
-      5. Construction du plan : «&nbsp;*Comment comptes tu t’y prendre ?*&nbsp;»<br>
-      6. Aider le collaborateur à identifier les conditions de succès : «&nbsp;*D’après toi qu’est-ce qui va être le plus important?*&nbsp;»<br>
+      3. Ecoute du collaborateur : «&nbsp;Comment vois-tu ça ?&nbsp;»<br>
+      4. Reformulation et validation des doutes : : «&nbsp;C’est normal de …&nbsp;»<br>
+      5. Construction du plan : «&nbsp;Comment comptes tu t’y prendre ?&nbsp;»<br>
+      6. Aider le collaborateur à identifier les conditions de succès : «&nbsp;D’après toi qu’est-ce qui va être le plus important?&nbsp;»<br>
       7. Formalisation des points clés par écrit<br>
       8. Prendre rendez-vous pour le débriefing<br>
       `,
 			to_remember:
-				'«&nbsp;*Plus on m’impose plus je m’oppose, plus on m’implique plus je m’applique !*&nbsp;»',
+				'«&nbsp;Plus on m’impose plus je m’oppose, plus on m’implique plus je m’applique !&nbsp;»',
 			tags:
 				'déléguer, Déléguer, délégé, Délégé, mission, Mission, tâche, Tâche, tache, Tache, garantir, Garantir, succès, Succès, succes, Succes, objectif, Objectif, objectifs, Objectifs, ecoute, Ecoute, ecouter, Ecouter, écoute, écouter, plan, Plan, reformulation, Reformulation, formalisation, Formalisation, rendez-vous, Rendez-vous, débriefing, Débriefing, debrief, Debrief, debriefing, Debrefing, enjeu, Enjeu',
 		},
@@ -383,15 +383,15 @@ export class FicheProvider {
 			why_img: 'fiche_3_12_1.svg',
 			how: `
       1. Constat du résultat par rapport à l’objectif<br>
-      2. Ecoute du collaborateur : «&nbsp;*Comment ça s’est passé?*&nbsp;»<br>
+      2. Ecoute du collaborateur : «&nbsp;Comment ça s’est passé?&nbsp;»<br>
       3. Repérages des points positifs et des difficultés rencontrées<br>
       4. Valorisation des points positifs<br>
       5. Questionnement du collaborateur pour approfondir les difficultés et en retirer des enseignements<br>
-      6. Aider le collaborateur à capitaliser : «&nbsp;*Si tu avais à refaire, que ferais-tu pareil, que ferais-tu différemment ?*&nbsp;»<br>
+      6. Aider le collaborateur à capitaliser : «&nbsp;Si tu avais à refaire, que ferais-tu pareil, que ferais-tu différemment ?&nbsp;»<br>
       7. Reformuler l’enseignement principal<br>
       `,
 			to_remember:
-				'«&nbsp;*C’est en «&nbsp;rendant compte&nbsp;» de son action que le collaborateur «&nbsp;se rendra compte&nbsp;» et capitalisera des enseignements*&nbsp;»',
+				'«&nbsp;C’est en «&nbsp;rendant compte&nbsp;» de son action que le collaborateur «&nbsp;se rendra compte&nbsp;» et capitalisera des enseignements&nbsp;»',
 			tags:
 				'conduire, Conduire, debrief, Debrief, débrief, Débrief, débriefing, Débriefing, debriefing, Debriefing, développer, Développer, developper, Developper, compétence, Compétence, competence, Competence, compétences, Compétences, competences, Competences, enseignement, Enseignement, enseignements, Enseignements, ecoute, Ecoute, ecouter, Ecouter, resultat, Resultat, résultat, Résultat, valoriser, Valoriser, positif, Positif, positive, Positive, capitaliser, Capitaliser, reforumler, Reformuler, collaborateur, Collaborateur',
 		},
@@ -404,15 +404,15 @@ export class FicheProvider {
 			why_img: 'fiche_3_13_1.svg',
 			how: `
       1. Faire un constat factuel des conséquences de l’erreur<br>
-      2. Reconnaitre éventuellement sa part de responsabilité : «&nbsp;*Sans doute que je ne t’ai pas assez expliqué ce point*&nbsp;»<br>
-      3. Annoncer clairement l’objectif de l’entretien : «&nbsp;*Trouver une solution et non sanctionner*&nbsp;»<br>
+      2. Reconnaitre éventuellement sa part de responsabilité : «&nbsp;Sans doute que je ne t’ai pas assez expliqué ce point&nbsp;»<br>
+      3. Annoncer clairement l’objectif de l’entretien : «&nbsp;Trouver une solution et non sanctionner&nbsp;»<br>
       4. Faire raconter pour donner au collaborateur l’énergie de la remise en question<br>
-      5. Reformuler les causes : «&nbsp;*Si je comprends bien cela vient du fait que…*&nbsp;»<br>
-      6. Aider le collaborateur à trouver une solution : «&nbsp;*Comment peut-on faire pour corriger ?*&nbsp;»<br>
+      5. Reformuler les causes : «&nbsp;Si je comprends bien cela vient du fait que…&nbsp;»<br>
+      6. Aider le collaborateur à trouver une solution : «&nbsp;Comment peut-on faire pour corriger ?&nbsp;»<br>
       7. Valider la solution et programmer un débriefing de sa mise en œuvre<br>
       `,
 			to_remember:
-				'«&nbsp;*La problématique de la gestion de l’erreur consiste à analyser les causes pour trouver une solution et non à chercher un coupable*&nbsp;»',
+				'«&nbsp;La problématique de la gestion de l’erreur consiste à analyser les causes pour trouver une solution et non à chercher un coupable&nbsp;»',
 			tags:
 				'traiter, Traiter, traité, Traité, erreur, Erreur, enseignement, Enseignement, enseignements, Enseignements, constat, Constat, factuel, Factuel, objectif, Objectif, solution, Solution, solutions, Solutions, débriefing, Débriefing, debrief, Debrief, debriefing, Debriefing, responsabilité, Responsabilité, responsabilite, Responsabilite',
 		},
@@ -425,14 +425,14 @@ export class FicheProvider {
 			why_img: 'bad_news.jpg',
 			how: `
       1. Rappeler le contexte de l’entreprise ou les raisons qui ont conduits à la décision<br>
-      2. Prendre une précaution oratoire : «&nbsp;*Ce que j’ai à t’annoncer n’est pas facile à entendre et pas facile à dire non plus*&nbsp;»<br>
+      2. Prendre une précaution oratoire : «&nbsp;Ce que j’ai à t’annoncer n’est pas facile à entendre et pas facile à dire non plus&nbsp;»<br>
       3. Annoncer la décision en l’argumentant<br>
       4. Marquer un silence pour permettre à l’autre de s’exprimer<br>
       5. Ecouter la réaction du collaborateur<br>
-      6. Reconnaître le ressenti du collaborateur : «&nbsp;*Je comprends que…*&nbsp;»<br>
+      6. Reconnaître le ressenti du collaborateur : «&nbsp;Je comprends que…&nbsp;»<br>
       7. Expliquer les étapes suivantes ou clôturer l’entretien<br>`,
 			to_remember:
-				'«&nbsp;*Annoncer une mauvaise nouvelle de manière respectueuse c’est préparer l’interlocuteur à la recevoir*&nbsp;»',
+				'«&nbsp;Annoncer une mauvaise nouvelle de manière respectueuse c’est préparer l’interlocuteur à la recevoir&nbsp;»',
 			tags:
 				'annoncer, Annoncer, mauvaise, Mauvaise, nouvelle, Nouvelle, nouvel, Nouvel, acceptation, Acceptation, favoriser, Favoriser, contexte, Contexte, decision, Decision, décision, Décision, réaction, Réaction, reaction, Reaction, entretien, Entretien',
 		},
@@ -452,7 +452,7 @@ export class FicheProvider {
       6. Ecrire pour chaque comportement choisi une règle précise<br>
       `,
 			to_remember:
-				'«&nbsp;*La cohésion repose sur le partage des règles connues et expliquées*&nbsp;»',
+				'«&nbsp;La cohésion repose sur le partage des règles connues et expliquées&nbsp;»',
 			tags:
 				'construire, Construire, règle, Règle, règles, Règles, regles, Règles, regles, Regles, vie, Vie, équipe, Equipe, fédérer, Fédérer, federer, Federer, féderer, Féderer, fedérer, Fedérer, réunion, Réunion, reunion, Reunion, comportement, Comportement, comportements, Comportements, important, Important, cohesion, Cohesion, equipe, Equipe, équipe',
 		},
@@ -485,10 +485,10 @@ export class FicheProvider {
 					title:
 						'Convoquer les deux collaborateurs en conflit pour une réunion spécifique  :',
 					content: `
-          1. Jouer un rôle de médiateur et préciser la règle du jeu  : «&nbsp;*Je vais vous écouter l’un après l’autre, je vous demande de vous adresser uniquement à moi. Pendant que l’un s’exprime, l’autre l’écoute sans interrompre, ensuite ce sera son tour*&nbsp;»<br>
+          1. Jouer un rôle de médiateur et préciser la règle du jeu  : «&nbsp;Je vais vous écouter l’un après l’autre, je vous demande de vous adresser uniquement à moi. Pendant que l’un s’exprime, l’autre l’écoute sans interrompre, ensuite ce sera son tour&nbsp;»<br>
           2. Donner la parole aux collaborateurs à tour de rôle<br>
           3. Reformuler les propos de l’un et de l’autre (et notamment l’émotion ressentie par chacun) sans prise de position.<br>
-          4. Invoquer sa part de responsabilité si nécessaire pour minimiser la tension  : «&nbsp;*J’aurai sûrement du m’apercevoir de la tension entre vous avant*&nbsp;»<br>
+          4. Invoquer sa part de responsabilité si nécessaire pour minimiser la tension  : «&nbsp;J’aurai sûrement du m’apercevoir de la tension entre vous avant&nbsp;»<br>
           5. Annoncer la décision prise (arbitrage, solution technique, règle du jeu)<br>
           6. Demander aux collaborateurs leur validation de la solution<br>
           7. Remercier les collaborateurs pour leur franchise<br>
@@ -496,7 +496,7 @@ export class FicheProvider {
 				},
 			],
 			to_remember:
-				'«&nbsp;*Dans un conflit chacun a raison «&nbsp;dans son monde&nbsp;», le rôle du manager est d’aider les collaborateurs à «&nbsp;entendre&nbsp;» le monde de l’autre avant de trouver une solution*&nbsp;»',
+				'«&nbsp;Dans un conflit chacun a raison «&nbsp;dans son monde&nbsp;», le rôle du manager est d’aider les collaborateurs à «&nbsp;entendre&nbsp;» le monde de l’autre avant de trouver une solution&nbsp;»',
 			tags:
 				'gérer, Gérer, gerer, Gérer, conflit, Conflit, cohesion, Cohesion, éviter, Eviter, eviter, équipe, Equipe, fait, Fait, faits, Faits, solution, Solution, solutions, Solutions, médiateur, Médiateur, mediateur, Mediateur, responsabilité, Responsabilité, responsabilite, Responsabilite, propos, Propos, négatif, Négatif, negatif, Negatif, conséquence, Conséquence, consequence, Consequence',
 		},
@@ -509,13 +509,13 @@ export class FicheProvider {
 				'Pour signaler le hors-jeu et faire comprendre le caractère non négociable de la règle',
 			why_img: 'fiche_4_17_1.svg',
 			how: `
-      1. Faire un constat factuel de la faute : «&nbsp;*J’ai vu que…*&nbsp;»<br>
+      1. Faire un constat factuel de la faute : «&nbsp;J’ai vu que…&nbsp;»<br>
       2. Entendre les justifications sans relancer ni couper la parole<br>
-      3. Prendre en compte les justifications : «&nbsp;*Je comprends que…*&nbsp;»<br>
+      3. Prendre en compte les justifications : «&nbsp;Je comprends que…&nbsp;»<br>
       4. Rappeler la règle en faisant un lien avec les valeurs de l’entreprise<br>
       `,
 			to_remember:
-				'«&nbsp;*L’entretien a pour objet de rappeler une règle et non polémiquer sur les causes de la dérive*&nbsp;»',
+				'«&nbsp;L’entretien a pour objet de rappeler une règle et non polémiquer sur les causes de la dérive&nbsp;»',
 			tags:
 				'gérer, Gérer, gerer, Gerer, dérive, Dérive, derive, Derive, hors-jeu, Hors-jeu, hors, Hors, jeu, Jeu, signaler, Signaler, constat, Constat, faute, Faute, justification, Justification, justifications, Justifications, règle, Règle, regle, Regle',
 		},
@@ -528,16 +528,16 @@ export class FicheProvider {
 				'Pour (re)définir les exigences avec un collaborateur dont les dérives sont multiples.',
 			why_img: 'reframing.jpg',
 			how: `
-      1. Préciser l’objectif de l’entretien: «&nbsp;*trouver une solution pour mieux fonctionner*&nbsp;»<br>
+      1. Préciser l’objectif de l’entretien: «&nbsp;trouver une solution pour mieux fonctionner&nbsp;»<br>
       2. Présenter d’abord les points forts puis les comportements non acceptables<br>
       3. Ecouter la version du collaborateur, relancer pour comprendre sans polémiquer<br>
       4. Eventuellement reconnaître sa part de responsabilité et s’engager à faire évoluer ce que le collaborateur demande<br>
-      5. Redéfinir le cadre d’exigence : «&nbsp;*J’ai besoin que tu t’engages à respecter certaines exigences*&nbsp;»<br>
+      5. Redéfinir le cadre d’exigence : «&nbsp;J’ai besoin que tu t’engages à respecter certaines exigences&nbsp;»<br>
       6. Demander au collaborateur de s’engager<br>
       7. Prendre RDV pour faire le point 15 jours plus tard.<br>
       `,
 			to_remember:
-				'«&nbsp;*Le recadrage consiste à redéfinir le contrat hiérarchique : droits et devoir de chacun*&nbsp;»',
+				'«&nbsp;Le recadrage consiste à redéfinir le contrat hiérarchique : droits et devoir de chacun&nbsp;»',
 			tags:
 				'conduire, Conduire, recadrage, Recadrage, exigence, Exigence, exigences, Exigences, responsabilité, Responsabilité, responsabilite, Responsabilite, cadre, Cadre, exigence, Exigence',
 		},
@@ -557,19 +557,19 @@ export class FicheProvider {
       6. Conclure par la décision prise<br>
       `,
 			to_remember:
-				'«&nbsp;*Négocier c’est tenir compte des contraintes de l’autre pour faire 2 gagnants*&nbsp;»',
+				'«&nbsp;Négocier c’est tenir compte des contraintes de l’autre pour faire 2 gagnants&nbsp;»',
 			tags:
 				'négocier, Négocier, negocier, Negocier, interlocuteur, Interlocuteur, accord, Accord, demande, Demande, sens, Sens, conséquence, Conséquence, consequence, Consequence, recouter, Ecouter, contrainte, Contrainte, contraintes, Contraintes, solution, Solution, solutions, Solutions, gagnant, Gagnant, décision, Décision, decision, Decision',
 		},
 	];
-	private _keys: FicheKey[] = [
+	public FicheKey = [
 		{
 			id: 1,
 			cat_id: 1,
 			name: 'Mobiliser l’équipe',
 			img: 'fiche_key_1_1_0.svg',
-			content: `1. L’annonce d’un changement déclenche des réactions d’abord émotionnelles ensuite rationnelles
-      2. Chacun pèse en fonction de son niveau d’énergie et de ses représentations le ratio effort / résultat que le changement induit
+			content: `1. L’annonce d’un changement déclenche des réactions d’abord émotionnelles ensuite rationnelles<br>
+      2. Chacun pèse en fonction de son niveau d’énergie et de ses représentations le ratio effort / résultat que le changement induit<br>
       3. L’accompagnement du changement consiste moins à « réduire les résistances » qu’à créer les conditions de l’adhésion.`,
 		},
 		{
@@ -577,8 +577,8 @@ export class FicheProvider {
 			cat_id: 2,
 			name: 'Motiver les collaborateurs',
 			img: 'fiche_key_3_3_0.svg',
-			content: `1. L’écart entre la confiance et le doute calibre le niveau d’énergie de l’individu.
-      2. La prise de conscience est la conséquence de la prise de confiance : les messages positifs doivent toujours être adressés en premier pour créer les conditions de la remise en question.
+			content: `1. L’écart entre la confiance et le doute calibre le niveau d’énergie de l’individu.<br>
+      2. La prise de conscience est la conséquence de la prise de confiance : les messages positifs doivent toujours être adressés en premier pour créer les conditions de la remise en question.<br>
       3. La capacité à se projeter ou se remettre d’un échec dépend pour partie de l’écart entre les images positives qu’à l’individu de lui-même : l’estime de soi et ses complexes`,
 		},
 		{
@@ -586,8 +586,8 @@ export class FicheProvider {
 			cat_id: 3,
 			name: 'Coacher les collaborateurs',
 			img: 'fiche_key_2_2_0.svg',
-			content: `1. Le coaching consiste à développer progressivement l’autonomie du collaborateur à mesure que ses compétences augmentent.
-      2. Le mode de coaching doit s’adapter aux différentes phases de l’apprentissage : d’un mode directif vers un mode participatif puis enfin délégatif.
+			content: `1. Le coaching consiste à développer progressivement l’autonomie du collaborateur à mesure que ses compétences augmentent.<br>
+      2. Le mode de coaching doit s’adapter aux différentes phases de l’apprentissage : d’un mode directif vers un mode participatif puis enfin délégatif.<br>
       3. La phase la plus difficile (de débutant à technicien) où le ratio « effort/résultat » est le plus dégradé nécessite de nombreux encouragements.`,
 		},
 		{
@@ -595,8 +595,8 @@ export class FicheProvider {
 			cat_id: 4,
 			name: 'Gérer les situations complexes',
 			img: 'fiche_key_4_4_0.svg',
-			content: `1. Le management consiste à dire même les choses les plus difficiles de manière «&nbsp;entendable&nbsp;».
-      2. La principale difficulté consiste dans la canalisation de nos «&nbsp;émotions négatives&nbsp;» pour éviter de se laisser aller à un défoulement inefficace.
+			content: `1. Le management consiste à dire même les choses les plus difficiles de manière «&nbsp;entendable&nbsp;».<br>
+      2. La principale difficulté consiste dans la canalisation de nos «&nbsp;émotions négatives&nbsp;» pour éviter de se laisser aller à un défoulement inefficace.<br>
       3. Raisonner sa communication consiste à se poser la question de l’objectif afin de trouver la bonne attitude pour l’atteindre.`,
 		},
 	];
@@ -687,8 +687,8 @@ export class FicheProvider {
 		return this.fiches[rand];
 	}
 
-	public getFicheKeyById(id: number): Fiche {
-		return this.fiches[id];
+	public getFicheKeyById(id: number): FicheKey {
+		return this.FicheKey[id-1];
 	}
 /*
 	public getFicheKeyByCatId({ id }: { id: number; }) {

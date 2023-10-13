@@ -1,10 +1,2 @@
-# solar-management
-app ionic 7 
-
-
-# npm install 
-
-# build ios 
-
-
-
+# solar
+solar-app -  ionic 7.1.1

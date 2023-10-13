@@ -53,8 +53,9 @@ position: relative;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 0.922rem;
+    font-size: 0.992rem;
     letter-spacing: 0.224rem;
+ 
   
 }
   p {
@@ -68,25 +69,26 @@ position: relative;
 }
 
 .title-cat {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(244, 244, 244);
     text-transform: uppercase;
     border-top: 1px solid rgba(#39d1b6, 0.5) !important;
     height: 50px;
+    font-weight: 100;
+    border-radius: 8px;
 }
 
 .list-cat {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(244, 244, 244);
     text-transform: uppercase;
     border-top: 1px solid rgba(#39d1b6, 0.5) !important;
-    max-height: 150px;
-    min-height: 50px;
+    max-height: 300px;
+    padding-bottom: 10px;
 
     h4 {
         text-align: center;
         text-transform: uppercase;
-        font-size: 0.822rem;
-        letter-spacing: 0.024rem;
-      
+        font-size: 0.922rem;
+        letter-spacing: 0.224rem;
     }
     
 }

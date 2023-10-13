@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">test2</string>
-    <string name="title_activity_main">test2</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="app_name">SolarManagement</string>
+    <string name="title_activity_main">SolarManagement</string>
+    <string name="package_name">fr.adelios.solarmanagement2</string>
+    <string name="custom_url_scheme">fr.adelios.solarmanagement2</string>
 </resources>

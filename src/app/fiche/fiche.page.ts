@@ -34,8 +34,10 @@ export class FichePage implements OnInit {
    }
    
    getData() {
-		this.posts = [this.fiche_provider.getFicheKeyById(this.id)];
+		this.posts = [this.fiche_provider.getFicheById(this.id)];
     this.alldata = this.posts;
+
+    console.log(this.alldata);
     this.contents = this.posts[0].contents; 
     this.idcat = this.posts[0].cat_id; 
     this.getCategorieByid();

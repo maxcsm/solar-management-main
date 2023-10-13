@@ -1,0 +1,43 @@
+<ion-header >
+  <ion-toolbar mode="ios">
+    <ion-title>
+    <img src="assets/imgs/navbar/logo.svg"  width="100px"  />
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-button ion-button icon-only (click)="goCategories()" color="primary">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button ion-button icon-only  color="primary">
+   
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding >
+  <div class="bloc_button" >
+    <div class="button_cat anim_header_fiche " >
+    <div class="circle_cat backcat{{id}}">
+      <img  src="{{imagecat}}" class="img_cat" />
+    </div>
+    </div>
+    <div class="text-enter">{{namecat}}</div>
+  </div>
+
+  <div class="container_fiche" >
+  <div  *ngFor="let fiche of alldata" inset >
+  <h2 class="header_fiche" >{{fiche.name}}</h2>
+  </div>
+
+  <div  *ngFor="let fiche of alldata" class="remember_footer">
+  <div class="remember" [hidden]="!fiche.to_remember" [innerHTML]="fiche.to_remember"></div>
+  <div class="image" [hidden]="!fiche.img">
+  <img [src]="imgpost" />
+  </div>
+  <div [hidden]="!fiche.img" [innerHTML]="fiche.content" class="align_left"></div>
+  </div>
+</div>
+
+</ion-content>

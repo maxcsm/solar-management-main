@@ -28,14 +28,18 @@
 
 	<div class="cat-container" >
     <div *ngFor="let fiche of alldata">
-    <h1 class="cat{{fiche.id}}"> {{fiche.name}} </h1>
+    <h1 class="cat{{fiche.id}}"> <b>{{fiche.name}}</b> </h1>
     <p> {{fiche.description}}</p>
   </div>
 
 	<ion-list inset lines="none" >
-		<div  class="ion-text-center title-cat">
+
+    <div style="padding-bottom: 20px;">
+		<div  class="ion-text-center title-cat" (click)="goidee()" style="padding-bottom: 20px;">
     <h1 class="cat{{idcat}}"> les idées clés  </h1>
     </div>
+    </div>
+
     <div  class="ion-text-center list-cat" *ngFor="let item of allfiches" (click)="go($event, item)">
     <h4 > {{ item.name }}  </h4>
     </div>
